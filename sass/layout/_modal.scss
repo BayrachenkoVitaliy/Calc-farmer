@@ -1,0 +1,72 @@
+
+.information__form{
+    display: flex;
+    flex-direction: column;
+}
+.information__field{
+    max-width:150px ;
+    height: 40px;
+}
+.information__value{
+    max-width:120px ;
+    height: 40px;
+}
+.information__label:not(:last-child){
+ margin-bottom: 24px;
+}
+.information__label{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+.information__discraption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: #D3D4CF;
+    width: 150px;
+    text-align: center;
+}
+.information__button-box{
+    display: flex;
+    align-items: center;
+    margin:0 auto 24px auto;
+    
+
+}
+.information__product{
+   margin-bottom: 24px;
+}
+.information__button{
+    display:flex;
+   
+}
+.information__icon{
+    display: flex;
+    
+}
+.information__button-line{
+    width: 150px;
+    height: 4px;
+    background-color: black;
+    margin: 0 10px 0 10px;
+    
+}
+.information__text{
+    display: block;
+    margin-bottom: 24px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 0px;
+text-align: center;
+letter-spacing: 0.002em;
+color: #000000;
+}
+.button__form{
+    background-color: #66D771;
+    height: 50px;
+    margin-bottom: 50px;
+}

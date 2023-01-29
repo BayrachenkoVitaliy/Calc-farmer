@@ -1,0 +1,25 @@
+.information__menu{
+    
+    max-width: 360px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.information__link{
+    display: block;
+    
+}
+.information__items{
+    
+}
+.forward{
+    position: absolute;
+    top: 30px;
+    right: 14px;
+}
+.back{
+    position: absolute;
+    top: 30px;
+    left: 14px;
+}

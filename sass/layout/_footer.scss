@@ -1,0 +1,26 @@
+.footer{
+   
+    background-color: #FBFCC4;
+}
+.footer__box{
+    max-width: 360px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+   border:10px;
+   border-color: #0000;
+   background-color: aqua;
+   
+}
+.footer__link{
+    display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #617D11;
+}
