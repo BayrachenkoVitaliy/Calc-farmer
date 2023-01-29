@@ -5,26 +5,32 @@
     justify-content: center;
 
     height: 610px;
-
-    border:0 2px 2px 2px;
-    background-color: #000000;
-        
-    background-color: #FBFCC4;
+     
+    background-color: var(--backgroundcolor__maine);
 }
 .menu__choice{
     display: flex;
+    flex-direction: column;
     align-items: center;
-
-    
-
-    width: 255px;
-    height: 60px;
-    background-color: #66D771;
-    border-radius: 4px;
+    justify-content: center;
 }
-.menu__choice:not(:last-child){
+
+.menu__items{
+    display: flex;
+}
+
+.menu__items:not(:last-child){
     margin-bottom:  44px;
     }
 .menu__link{
-    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 255px;
+    height: 60px;
+    background-color: var(--backgroundcolor__button-calc);
+    border-radius: 4px;
+
+    ;
+
     }

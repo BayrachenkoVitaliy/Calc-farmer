@@ -15,14 +15,13 @@
 
     max-width: 250px;
 
-    border: 2px;
-    border-color: #000000;
-   
+    /* border: 2px solid var(--maine__color__dark); */
+    
     text-align: center;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 0.002em;
-    color: #000000;
+    color: var(--maine__color__dark);
 }

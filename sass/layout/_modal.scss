@@ -23,8 +23,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    background-color: #D3D4CF;
+    border: 1px solid var(--maine__color__dark);
+    background-color: var(--backgroundcolor__button-dark);
     width: 150px;
     text-align: center;
 }
@@ -49,7 +49,7 @@
 .information__button-line{
     width: 150px;
     height: 4px;
-    background-color: black;
+    background-color: var(--backgroundcolor__dark);
     margin: 0 10px 0 10px;
     
 }
@@ -63,10 +63,10 @@ font-size: 15px;
 line-height: 0px;
 text-align: center;
 letter-spacing: 0.002em;
-color: #000000;
+color: var(--maine__color__dark);
 }
 .button__form{
-    background-color: #66D771;
+    background-color: var(--backgroundcolor__button-calc);
     height: 50px;
     margin-bottom: 50px;
 }

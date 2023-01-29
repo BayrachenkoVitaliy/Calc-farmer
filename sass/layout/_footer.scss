@@ -1,6 +1,6 @@
 .footer{
    
-    background-color: #FBFCC4;
+    background-color: var(--backgroundcolor__maine);
 }
 .footer__box{
     max-width: 360px;
@@ -10,8 +10,8 @@
     justify-content: center;
     margin: 0 auto 0 auto;
    border:10px;
-   border-color: #0000;
-   background-color: aqua;
+   border-color: var(--maine__color__dark);
+   background-color: var(--backgroundcolor__button-light);
    
 }
 .footer__link{
@@ -22,5 +22,5 @@
     font-size: 25px;
     line-height: 29px;
     text-align: center;
-    color: #617D11;
+    color: var(secondary__color);
 }
