@@ -106,7 +106,6 @@ img {
 
 .button__form {
   display: block;
-  padding: 0 100px 0 100px;
   background-color: var(--backgroundcolor__button-calc);
   height: 50px;
   margin: 0 auto 50px auto;
@@ -302,6 +301,7 @@ img {
 
 .calc {
   background-color: var(--backgroundcolor__maine);
+  height: 610px;
 }
 
 .calc__cointeiner {
@@ -353,4 +353,17 @@ img {
 }
 .calc__value:placeholder-shown {
   background-color: #fff;
+}
+
+.instruction__list {
+  margin-bottom: 50px;
+  width: 300px;
+}
+
+.instruction__button {
+  display: flex;
+}
+
+.information__link--width {
+  width: 300px;
 }/*# sourceMappingURL=main.css.map */
