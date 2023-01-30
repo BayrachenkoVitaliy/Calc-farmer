@@ -2,15 +2,32 @@
 .information__form{
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 .information__field{
     max-width:150px ;
     height: 40px;
+    text-align: center;
+    background-color:var(--backgroundcolor__button-light)
 }
+.information__field:placeholder-shown{
+    background-color:#ffff   
+   } 
+
 .information__value{
     max-width:120px ;
     height: 40px;
+    text-align: center;
+    background-color:var(--backgroundcolor__button-light)
 }
+.information__value:placeholder-shown{
+    background-color:#ffff} 
+
+    .information__discraption{
+        border-radius: 4px;
+    } 
+
+
 .information__label:not(:last-child){
  margin-bottom: 24px;
 }
@@ -40,11 +57,12 @@
 }
 .information__button{
     display:flex;
+    color: var(--maine__color__dark);
    
 }
 .information__icon{
     display: flex;
-    
+    fill: currentColor;
 }
 .information__button-line{
     width: 150px;
@@ -65,8 +83,4 @@ text-align: center;
 letter-spacing: 0.002em;
 color: var(--maine__color__dark);
 }
-.button__form{
-    background-color: var(--backgroundcolor__button-calc);
-    height: 50px;
-    margin-bottom: 50px;
-}
+

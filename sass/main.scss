@@ -1,12 +1,19 @@
 @import './utils/variables';
 @import './base/common';
-@import './layout/header';
-@import './layout/menu';
+@import './components/header';
+@import'./components/conteiner';
+@import './components/menu';
+@import './components/button.scss';
+
+@import './layout/main_menu';
 @import './layout/footer';
-@import './layout/information';
-@import './layout/base-information';
-@import './components/information-menu';
-@import './layout/modal';
+@import './layout/information/base-information';
+@import './layout/information/information_form';
+@import'./layout/calc/calc_page';
+@import'./layout/calc/calc_form';
+
+
+
 
 
 

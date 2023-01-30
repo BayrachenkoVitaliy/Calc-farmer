@@ -1,8 +1,10 @@
 .footer{
-   
+    display: flex;
+    justify-content: center;
     background-color: var(--backgroundcolor__maine);
 }
 .footer__box{
+    margin-bottom: 50px;
     max-width: 360px;
     height: 60px;
     display: flex;
@@ -15,7 +17,17 @@
    
 }
 .footer__link{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 360px;
+    height: 60px;
+
+    border-radius: 4px;
+    
+    margin-bottom: 50px;
+    background-color: var(--backgroundcolor__button-light);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -23,4 +35,5 @@
     line-height: 29px;
     text-align: center;
     color: var(secondary__color);
+    
 }

@@ -6,7 +6,7 @@
   --backgroundcolor__button-calc:#66D771 ;
   --fontfamily__praimary:"Roboto", sans-serif;
   --fontfamily__secondery:"Raleway", sans-serif;
-  --maine__color__dark: #212121;
+  --maine__color__dark: #373434;
   --secondary__color: #617D11;
 }
 
@@ -70,6 +70,48 @@ img {
   margin: 0 auto 0 auto;
 }
 
+.conteiner {
+  padding: 0 15px 0 15px;
+}
+
+.information__menu {
+  max-width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.information__link {
+  display: block;
+}
+
+.forward {
+  position: absolute;
+  top: 30px;
+  right: 14px;
+}
+
+.back {
+  position: absolute;
+  top: 30px;
+  left: 14px;
+}
+
+.information__link--width {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+}
+
+.button__form {
+  display: block;
+  padding: 0 100px 0 100px;
+  background-color: var(--backgroundcolor__button-calc);
+  height: 50px;
+  margin: 0 auto 50px auto;
+}
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -105,10 +147,13 @@ img {
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
   background-color: var(--backgroundcolor__maine);
 }
 
 .footer__box {
+  margin-bottom: 50px;
   max-width: 360px;
   height: 60px;
   display: flex;
@@ -121,7 +166,14 @@ img {
 }
 
 .footer__link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 60px;
+  border-radius: 4px;
+  margin-bottom: 50px;
+  background-color: var(--backgroundcolor__button-light);
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -129,6 +181,10 @@ img {
   line-height: 29px;
   text-align: center;
   color: var(secondary__color);
+}
+
+.information {
+  background-color: var(--backgroundcolor__maine);
 }
 
 .information__conteiner {
@@ -152,46 +208,36 @@ img {
   color: var(--maine__color__dark);
 }
 
-.information {
-  background-color: var(--backgroundcolor__maine);
-}
-
-.information__menu {
-  max-width: 360px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.information__link {
-  display: block;
-}
-
-.forward {
-  position: absolute;
-  top: 30px;
-  right: 14px;
-}
-
-.back {
-  position: absolute;
-  top: 30px;
-  left: 14px;
-}
-
 .information__form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .information__field {
   max-width: 150px;
   height: 40px;
+  text-align: center;
+  background-color: var(--backgroundcolor__button-light);
+}
+
+.information__field:placeholder-shown {
+  background-color: white;
 }
 
 .information__value {
   max-width: 120px;
   height: 40px;
+  text-align: center;
+  background-color: var(--backgroundcolor__button-light);
+}
+
+.information__value:placeholder-shown {
+  background-color: white;
+}
+
+.information__discraption {
+  border-radius: 4px;
 }
 
 .information__label:not(:last-child) {
@@ -226,10 +272,12 @@ img {
 
 .information__button {
   display: flex;
+  color: var(--maine__color__dark);
 }
 
 .information__icon {
   display: flex;
+  fill: currentColor;
 }
 
 .information__button-line {
@@ -252,8 +300,57 @@ img {
   color: var(--maine__color__dark);
 }
 
-.button__form {
-  background-color: var(--backgroundcolor__button-calc);
-  height: 50px;
-  margin-bottom: 50px;
+.calc {
+  background-color: var(--backgroundcolor__maine);
+}
+
+.calc__cointeiner {
+  position: relative;
+  display: block;
+  margin: 0 auto 0 auto;
+  max-width: 360px;
+}
+
+.calc__head {
+  margin: 0 auto 40px auto;
+  padding: 30px 0 30px 0;
+  max-width: 250px;
+  /* border: 2px solid var(--maine__color__dark); */
+  text-align: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.002em;
+  color: var(--maine__color__dark);
+}
+
+.calc__form {
+  margin-bottom: 24px;
+}
+
+.calc__label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.calc__discraption {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 60px;
+  background-color: var(--backgroundcolor__button-dark);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.calc__value {
+  justify-content: center;
+  width: 100px;
+  text-align: center;
+  background-color: var(--backgroundcolor__button-light);
+}
+.calc__value:placeholder-shown {
+  background-color: #fff;
 }/*# sourceMappingURL=main.css.map */

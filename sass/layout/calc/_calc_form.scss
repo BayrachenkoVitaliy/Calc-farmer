@@ -1,0 +1,30 @@
+.calc__form{
+    margin-bottom: 24px;
+    
+}
+.calc__label{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 24px;
+   
+  
+    
+}
+.calc__discraption{
+    display:flex;
+    align-items: center;
+    width: 160px;
+    height: 60px;
+    background-color: var(--backgroundcolor__button-dark);
+    border-radius: 4px;
+    text-align: center;
+}
+.calc__value{
+    justify-content: center;
+    width: 100px;
+    text-align: center;
+    background-color: var(--backgroundcolor__button-light);
+    &:placeholder-shown{
+        background-color: #fff;
+    }
+}
