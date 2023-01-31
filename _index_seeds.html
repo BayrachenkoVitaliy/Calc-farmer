@@ -56,7 +56,7 @@
         <section class="information conteiner">
           <div class="information__conteiner">
             <h1 class="information__head">Норма висіву</h1>
-            <h2 class="information__head">Вихідна інформація</h2>
+            <h2>Вихідна інформація</h2>
             <!--menu -->
             <ul class="information__menu list">
               <li class="information__items back">
@@ -67,17 +67,26 @@
                 </a>
               </li>    
               <li class="information__items  forward">
-                <!-- <a class="information__link" href="./index_calc.html">
+                <a class="information__link" href="./index_calc.html">
                   <svg width="30px" height="30px">
                     <use href="./images/sprait.svg#icon-redo"></use>
                   </svg>
-                </a>   -->
+                </a>  
               </li>
             </ul>
 
             <!-- Form -->
+            <form>
+                <label class="information__label"> 
+                    <span class="information__discraption">
+                          Дата
+                    </span>            
+                    <input type="date" class="information__field" name="date" min="1">
+                  </label>
+                <button type="submit"></button>
+            </form>
 
-            <div class="information__introduction">
+            <!-- <div class="information__introduction">
               <Form class="information__form">
                 <label class="information__label"> 
                   <span class="information__discraption">
@@ -100,98 +109,90 @@
                   <input type="number" class="information__value" placeholder="га" name="aera" min="1">
                 </label>
 
-                <label class="information__label" >
-                  <span class="information__discraption">
-                    Культура
-                  </span> 
-                  <input type="text" class="information__value" placeholder="л" name="plant" min="1">
-                </label>
-
-                <label class="information__label">
+                <label class="information__label"> 
                     <span class="information__discraption">
-                        Міжряддя, см
+                        Культура
+                    </span>            
+                    <input type="date" class="information__field" name="date" min="1">
+                  </label>
+  
+                  <label class="information__label">
+                    <span class="information__discraption">
+                        Міжряддя см
                     </span>
-                    <input type="number" class="information__value" placeholder="назва/номер" name="Mseeds" >
+                    <input type="text" class="information__value" placeholder="назва/номер" name="field" >
                   </label>
   
                   <label class="information__label">
                     <span class="information__discraption">
                         МТН,  г
-                    </span>
-                    <input type="number" class="information__value" placeholder="назва/номер" name="Mseeds" >
-                  </label>
-  
-                  <label class="information__label">
-                    <span class="information__discraption">
-                        Схожість %
                     </span> 
-                    <input type="number" class="information__value" placeholder="га" name="%" min="1">
-                  </label>
-  
-                  <label class="information__label" >
-                    <span class="information__discraption">
-                        Норма схожих насінин  тис./га
-                    </span> 
-                    <input type="number" class="information__value" placeholder="тис./га" name="Sowing-rate" min="1">
+                    <input type="number" class="information__value" placeholder="га" name="aera" min="1">
                   </label>
 
                   <label class="information__label"> 
                     <span class="information__discraption">
-                        Норма насінин шт./га
+                        Схожість %
                     </span>            
-                    <input type="number" class="information__value" placeholder="шт./га" name="long-Sowing-rate" min="1">
+                    <input type="date" class="information__field" name="date" min="1">
                   </label>
-
-
-                  <h2 class="information__head">Розрахована норма</h2>
-
   
                   <label class="information__label">
                     <span class="information__discraption">
-                        Норма, кг/га
+                        Норма схожих насінин  тис./га
                     </span>
-                    <input type="number" class="information__value" placeholder="кг/га" name="" >
+                    <input type="text" class="information__value" placeholder="назва/номер" name="field" >
                   </label>
   
                   <label class="information__label">
                     <span class="information__discraption">
-                        Тис. шт./га
+                        Норма насінин шт./га
                     </span> 
-                    <input type="number" class="information__value" placeholder="шт./га" name="" min="1">
+                    <input type="number" class="information__value" placeholder="га" name="aera" min="1">
                   </label>
-  
-                  <label class="information__label" >
-                    <span class="information__discraption">
-                        Шт. нас./пог.метр
-                    </span> 
-                    <input type="number" class="information__value" placeholder="Шт. нас./пог.метр" name="" min="1">
+
+                <label class="information__label" >
+                  <span class="information__discraption">
+                        Розчин л/га
+                  </span> 
+                  <input type="number" class="information__value" placeholder="л" name="spray-volume" min="1">
+                </label>
+                <div class="information__product">
+                  <label class="information__label">
+                    <input type="text" class="information__field" placeholder="Препарат" name="Preparation_1" >
+                    <input type="number" class="information__value" placeholder="л,кг/га" name="rate_1" >
                   </label>
-               
                 
-                  <button  type="submit" class="button__form button">
-                    <a class="information__link--width link" href="./index_calc.html">
-                    Розрахувати
-                  </a>
+                  <label class="information__label" >
+                    <input type="text" class="information__field" placeholder="Препарат" name="Preparation_2" >
+                    <input type="number" class="information__value" placeholder="л,кг/га" name="rate_2" >
+                  </label>
+                    
+                  <label class="information__label" >
+                    <input type="text" class="information__field" placeholder="Препарат" name="Preparation_3">
+                    <input type="number" class="information__value" placeholder="л,кг/га" name="rate_3">
+                  </label>
+                </div>
+
+                <div class="information__button-box">
+                  <button class="information__button" type="button">
+                    <svg class="information__icon" width="30px" height="30px">
+                      <use href="./images/sprait.svg#icon-minus"></use>
+                    </svg>
                   </button>
+                  <div class="information__button-line"></div>
+                  <button class="information__button" type="button">
+                    <svg class="information__icon" width="30px" height="30px">
+                      <use href="./images/sprait.svg#icon-plus"></use>
+                    </svg>
+                  </button>
+                </div>
+           
                 
                 
               </Form>
-            </div>
+            </div> -->
           </div>
         </section>
         </main>
         
-    
-    
-    </main> 
-
-
-    <!--footer-->
-     <footer class="footer conteiner">
-      
-    </footer>
-
-   
-          
-  </body>
-</html>

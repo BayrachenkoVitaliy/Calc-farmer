@@ -24,3 +24,33 @@
     top: 30px;
     left: 14px;
 }
+
+.language{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    
+    background-color: var(--backgroundcolor__maine);
+
+}
+.language__items{
+    margin-top: 20px;
+}
+
+.language__link{
+    width: 60px;
+    height: 60px;
+
+    display: block;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    background-color: var(--backgroundcolor__button-dark);
+
+
+}
