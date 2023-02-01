@@ -103,21 +103,21 @@
                   <span class="information__discraption">
                         Розчин л/га
                   </span> 
-                  <input type="number" class="information__value" placeholder="л" name="spray-volume" min="1">
+                  <input type="number" class="information__value" placeholder="л" name="sprayVolume" min="1">
                 </label>
                 <div class="information__product">
                   <label class="information__label">
-                    <input type="text" class="information__field" placeholder="Препарат" name="Preparation_1" >
+                    <input type="text" class="information__field" placeholder="Препарат" name="preparation_1" >
                     <input type="number" class="information__value" placeholder="л,кг/га" name="rate_1" >
                   </label>
                 
                   <label class="information__label" >
-                    <input type="text" class="information__field" placeholder="Препарат" name="Preparation_2" >
+                    <input type="text" class="information__field" placeholder="Препарат" name="preparation_2" >
                     <input type="number" class="information__value" placeholder="л,кг/га" name="rate_2" >
                   </label>
                     
                   <label class="information__label" >
-                    <input type="text" class="information__field" placeholder="Препарат" name="Preparation_3">
+                    <input type="text" class="information__field" placeholder="Препарат" name="preparation_3">
                     <input type="number" class="information__value" placeholder="л,кг/га" name="rate_3">
                   </label>
                 </div>
@@ -141,7 +141,7 @@
                   <span class="information__discraption">
                     Об'єм бака л.
                   </span> 
-                  <input type="number" class="information__value" placeholder="л" name="tank-сapacity, l" min="1">
+                  <input type="number" class="information__value" placeholder="л" name="tankCapacity" min="1">
                 </label>
 
                 <label class="information__label">
@@ -158,14 +158,71 @@
                   <input type="number" class="information__value" placeholder="м" name="overlapping" min="1">
                 </label>
                 
-                  <button  type="submit" class="button__form button">
+                  <button  type="submit" class="button__action button">
                     <a class="information__link--width link" href="./index_calc.html">
                     Розрахувати
                   </a>
                   </button>
-                
+                  
+                  <button  type="button" class="button__action button">
+                    <a class="information__link--width link" href="./index_calc.html">
+                      Зберегти
+                  </a>
+                  </button>
+
+                  <button  type="button" class="button__action button">
+                    <a class="information__link--width link" href="./index_calc.html">
+                      Відправити
+                  </a>
+                  </button>
                 
               </Form>
+              <!-- modal_send -->
+              <div class="send">
+
+                <button  type="button" class="button__action button">
+                    
+                  ПДФ
+              
+              </button>
+
+                  <ul class="send__list list">
+                   <li class="send__items">
+                    <button  type="button" class="button__send">
+                      <a class="send__link link" href="./index_calc.html">
+                        вайбер
+                    </a>
+                    </button>
+                   </li> 
+                   <li class="send__items">
+                    <button  type="button" class="button__send">
+                      <a class="send__link link" href="./index_calc.html">
+                        вацап
+                    </a>
+                    </button>
+                   </li> 
+                   <li class="send__items">
+                    <button  type="button" class="button__send">
+                      <a class="send__link link" href="./index_calc.html">
+                        e-mail
+                    </a>
+                    </button>
+                   </li> 
+                   <li class="send__items">
+                    <button  type="button" class="button__send">
+                      <a class="send__link link" href="./index_calc.html">
+                        повідомлення
+                    </a>
+                    </button>
+                   </li>   
+                  </ul>
+                    <button  type="button" class="button__action button">
+                    
+                      Файл для calc farmer
+                  
+                  </button>
+
+              </div>
             </div>
           </div>
         </section>
